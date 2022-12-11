@@ -22,7 +22,7 @@ jobs:
  uses: wlixcc/SFTP-Deploy-Action@v1.2.1
  with:
  username: 'ubuntu'
- server: ec2-65-0-27-77.ap-south-1.compute.amazonaws.com
+ server: ec2-35-92-189-20.us-west-2.compute.amazonaws.com
  port: 22 # default is 22
  ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
  
